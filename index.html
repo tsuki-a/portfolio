@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="hero">
+  <h1>Natsuki Hatta</h1>
+  <p class="subtitle">
+    情報工学専攻 修士1年<br>
+	セキュリティ系副専攻 / ネットワーク分科会<br>
+    XR / Web / Security / Interactive Systems<br>
+  </p>
+  <p class="catchcopy">
+    Building systems from questions, constraints, and exploration.
+  </p>
+</header>
+
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>
+        情報工学を専攻する大学院M1です。XR・Web技術を中心に、3Dコンテンツ保護やインタラクティブシステムの研究開発に取り組んでいます。
+        私は、実際に技術を使う中で生じる違和感や制約から問いを見つけ、問題を整理しながら実装・検証へ落とし込んでいくプロセスを得意としています。
+        卒業研究では、「WebARで3Dモデルを配信すると、データを容易に取得できてしまうのではないか」という問題意識から出発し、
+        現実的に検証可能な範囲へ問題を切り出しながら、保護と体験の両立を目指した表示制御システムの実装と評価を行いました。
+    </section>
+
+    <section>
+  <h2>Awards</h2>
+
+  <ul class="awards-list">
+    <li>
+      2025年度卒業式答辞担当
+      <a href="https://www.chuo-u.ac.jp/aboutus/news/2026/03/84910/">大学公式掲載</a>
+    </li>
+
+    <li>
+      中央大学学員会会長賞
+      <!-- <a href="https://gakuinkai.net/8331/">Official Page</a>
+       <a href="https://www.chuo-u.ac.jp/academics/faculties/advanced/departments/infotech/news/2026/05/85602/">Interview</a> -->
+       <a href="https://gakuinkai.net/8331/">大学公式掲載</a> /
+  <a href="https://www.chuo-u.ac.jp/academics/faculties/advanced/departments/infotech/news/2026/05/85602/">インタビュー</a>
+    </li>
+
+    <li>
+      2025年度 中央大学理工学部長賞（給付奨学生）
+    </li>
+
+    <li>
+      中央大学 画像・映像コンテンツ演習 最優秀賞
+      <a href="https://www.chuo-u.ac.jp/academics/faculties/advanced/departments/infotech/news/2024/07/72432/">大学公式掲載</a>
+    </li>
+
+    <li>
+      2023, 2024年度 中央大学理工学部給付奨学金生
+    </li>
+    
+
+
+  </ul>
+</section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <article class="card">
+        <h3>卒業研究：WebAR × 3Dモデル保護</h3>
+        <p>
+          WebAR上で3Dモデルを安全にプレビューするため、表示品質制御と段階的配信を組み合わせた手法を研究・実装しました。
+        </p>
+         <p class="note">
+          ※ 研究詳細については、Googleドライブの研究スライドや卒業論文、就活サイト掲載資料をご参照ください。<br>
+          ※ 関連内容を国際学会へ投稿中のため、公開内容を一部調整しています。
+        </p>
+        <p class="tags"><p class="tags">
+          WebAR / three.js / 3D Content Protection / UX Evaluation
+        </p></p>
+      </article>
+
+      <article class="card">
+        <img
+          src="assets/vrhigh-thumubnail.png"
+          alt="VRHigh"
+          class="thumbnail"
+        >
+        <h3>個人開発：VRHigh/RoomScale VR</h3>
+        <span class="project-subtitle">
+          高所歩行体験型ルームスケールVR<br>
+          学園祭サークル展示向けに制作
+        </span>
+        <p class="meta">
+          サークル展示作品 / 制作期間：2日弱
+        </p>
+        <p>
+          学園祭展示向けに、短時間で直感的に楽しめるルームスケールVRコンテンツを制作しました。
+          「広い展示空間をどのように活用するか」「初めてVRに触れる人でも楽しめるか」という問いから出発し、
+          体験導線、安全性、説明負荷を意識しながら設計・実装を行いました。
+        </p>
+        <p class="tags">Unity / Room-scale VR / XR / Interaction Design</p>
+
+        <p class="role">
+          個人制作 / コンセプト設計 / Unity実装 
+        </p>
+
+        <div class="project-links">
+        <a href="https://github.com/tsuki-a/VRHigh_RoomScaleVR.git">
+          GitHub
+        </a>
+
+        <a href="https://youtu.be/Nuw2JrtAtAE">
+          Demo Video
+        </a>
+        </div>
+        <p class="note">
+          ※ 写真は撮影者・体験者ともに掲載許可を取得しています<br>
+          ※ 使用している3Dモデルの一部はサークルメンバー制作です
+        </p>
+
+      </article>
+
+      <article class="card">
+        <img
+          src="assets/kaimin-door-thumbnail_4.6.1.png"
+          alt="快眠ドア守り"
+          class="thumbnail"
+        >
+        <h3>チーム開発：快眠ドア守り</h3>
+        <span class="project-subtitle">
+          IoT睡眠時自動ドア開閉換気システム
+        </span>
+        <p class="meta">
+          制作期間：約1か月
+        </p>
+        <p>
+          Raspberry Pi、CO₂センサー、MQTTを用いて、換気支援用IoTシステムのプロトタイプを制作しました。
+          睡眠時の換気重要性に関する既存知見をもとに、「換気は必要だが、騒音や空調効率の問題から常時ドアを開けておくのは難しい」という課題に着目し、
+          必要時のみ自動で換気を行う仕組みを試作しました。
+          また、実際にどの程度効果があるのかが気になり、自室環境でもCO₂濃度ログを取得しました。
+          限られた条件での観測ではありますが、部屋の位置や環境条件によって差が出る可能性があると感じています。
+        </p>
+        <p class="tags">Raspberry Pi / MQTT / Node.js / Sensor System / IoT</p>
+
+        <p class="role">
+          チーム制作（3人）/ システム提案 / MQTT連携 / モーター制御
+        </p>
+
+        <div class="project-links">
+        <a href="https://github.com/tsuki-a/co2-ventilation-door.git">
+          GitHub
+        </a>
+
+        <a href="https://drive.google.com/file/d/1qWcpHnwbH1_FVHjiyBFuTe7Z6a8ZhbXh/view?usp=drive_link">
+          Slide
+        </a>
+
+        <a href="https://youtu.be/YRqfV0iFQMs">
+          Demo Video
+        </a>
+      </div>
+      </article>
+
+        <article class="card">
+          <h3>チーム開発：証拠隠滅 -忘れられたUSB- </h3>
+          <span class="project-subtitle">
+            災害時のドローン活用シミュレーションゲーム
+          </span>
+          <p class="meta">
+            制作期間：約4か月
+          </p>
+          <p>
+            チーム開発形式のプロジェクト演習において、主にリーダー兼プレゼン担当としてインタラクティブコンテンツ制作を行いました。
+            災害発生時を想定したシナリオ型コンテンツとして、自律航行ドローンをゲームエンジン上で制御するインタラクティブシステムを制作しました。
+            ユーザーが瓦礫を配置して進路を妨害できるインタラクションも実装し、状況変化に対するドローン挙動を体験できる構成としました。
+            必要な技術領域を踏まえてチーム構成を行い、仕様整理を行い、適材適所での役割分担を行いながら、ガントチャートを用いて進捗管理を行いました。
+            成果発表では優秀賞を受賞しました。
+          </p>
+          <p class="tags">
+            Godot / Drone / Interactive System
+          </p>
+          <p class="role">
+            チーム開発 / リーダー / プレゼン
+          </p>
+
+          <div class="project-links">
+            <a href="https://drive.google.com/file/d/1lSjT6qQkJ9dLvxhIq2yUgUw46-hEaCyt/view?usp=drive_link">
+              Slide
+            </a>
+
+            <!-- <a href="">
+              Demo Video
+            </a> -->
+
+            <a href="https://www.chuo-u.ac.jp/academics/faculties/advanced/departments/infotech/news/2026/05/85602/">
+              関連インタビュー記事
+            </a>
+          </div>
+      </article>
+
+      <article class="card">
+        <h3>共同研究：VRコンテンツ</h3>
+        <p>
+          企業とのVRコンテンツに関する共同研究では、シナリオチームの学生リーダー兼VR開発チームのメンバーとして取り組んでいます。
+          シナリオ制作と開発の連携面に課題を感じ、教員とも相談しながら改善提案を行いました。
+          その後、開発体制の整理が進み、より円滑な連携環境づくりにも貢献しました。
+          また、限られた工数の中で没入感を高めるための演出設計や実装アイデアについても提案を行っています。
+        </p>
+        <p class="tags">
+          
+        </p>
+        <p class="role">
+          共同研究 / 学生リーダー / VR開発 / 改善提案
+        </p>
+      </article>
+
+    </section>
+
+  <section>
+    <h2>Skills</h2>
+
+    <h3 class="skill-category">Development</h3>
+    <ul class="skills">
+      <li>HTML / CSS / JavaScript</li>
+      <li>three.js / A-Frame / AR.js / WebAR / WebXR</li>
+      <li>Unity / C#</li>
+      <li>C++</li>
+      <li>Python</li>
+      <li>Raspberry Pi / IoT</li>
+      <li>Git / GitHub</li>
+    </ul>
+
+    <h3 class="skill-category">Creative</h3>
+    <ul class="skills">
+      <li>DaVinci Resolve</li>
+      <li>Figma</li>
+      <li>ibisPaint / MediBang Paint</li>
+    </ul>
+  </section>
+
+    <section>
+      <h2>Links</h2>
+      <ul class="links">
+        <li><a href="https://github.com/tsuki-a">GitHub</a></li>
+        <li><a href="https://drive.google.com/drive/folders/1R5qJaIgjtYUw1Ir7t23X77867A1VT_8h?usp=drive_link">Google Drive</a></li>
+        <!-- <li><a href="#">LabBase</a></li>
+        <li><a href="Supporterz URL">Supporterz</a></li>
+        <li><a href="Levtech URL">LevTech Rookie</a></li> -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Natsuki Hatta</p>
+  </footer>
+</body>
+</html>
