@@ -148,3 +148,60 @@ footer {
   color: #777;
   line-height: 1.5;
 }
+
+.analysis-example-title {
+  margin-top: 1.2rem;
+  margin-bottom: 0.6rem;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.analysis-example-list {
+  margin: 0.4rem 0 1rem;
+  padding-left: 1.2rem;
+  line-height: 1.8;
+  font-size: 0.92rem;
+}
+
+.analysis-example-list li {
+  margin-bottom: 0.45rem;
+}
+
+.analysis-example-list li::marker {
+  color: #4f6f8f;
+}
+
+.data-sources {
+  margin-top: 1.2rem;
+  padding: 0.9rem 1rem;
+  background: #f7f9fb;
+  border-radius: 8px;
+  font-size: 0.88rem;
+}
+
+.data-sources h4 {
+  margin: 0 0 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.data-sources ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  line-height: 1.7;
+}
+
+.data-sources li {
+  margin-bottom: 0.25rem;
+}
+
+.data-sources a {
+  color: #4f6f8f;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.data-sources a:hover {
+  opacity: 0.75;
+}
